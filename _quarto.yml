@@ -2,18 +2,35 @@ project:
   type: website
 
 website:
-  title: "website"
+  title: "InvertTraits"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    right:
+      - href: access.qmd
+        text: How to access
+      - href: ongoing.qmd
+        text: Ongoing efforts
+      - href: structure.qmd
+        text: Database structure
+      - href: people.qmd
+        text: ARDC team and Partners
+      - href: impact.qmd
+        text: Impact
+      - href: contributors.qmd
+        text: Data contributors
+      - href: contact.qmd
+        text: Contact
+        
+     
 
 format:
   html:
-    theme: cosmo
+    theme: yeti
     css: styles.css
     toc: true
+    mainfont: avenir
+    fontsize: 17px
 
-editor: visual
+    
+
+editor: source
 
